@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: ivory;
+   
+}
+ 
+input:focus {
+	outline: none;
+ 
+}
+ 
+
+main {
+    width: 1200px;
+    
+}
+
+header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ 
+ 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+    background-color: coral;
+    
+}
+ 
+ul {
+    display: flex;
+    padding: 20px;
+    background-color: coral;
+     
+}
+
+ li {
+    display: flex;
+    padding: 8px 30px;
+    background-color: coral;
+  
+    
+ }
+
+ nav a {
+    text-decoration: none;
+    background-color: coral;
+    color: white;
+
+    font-size: 20px;
+    font-weight: bold;
+    
+ }
+ 
+ .mainSec {
+    display: inline-block;
+    text-align: center;
+ }
